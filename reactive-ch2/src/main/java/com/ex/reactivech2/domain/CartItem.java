@@ -15,6 +15,10 @@ public class CartItem {
         this.quantity = 1;
     }
 
+    public void increment() {
+        this.quantity++;
+    }
+
     public Item getItem() {
         return item;
     }
